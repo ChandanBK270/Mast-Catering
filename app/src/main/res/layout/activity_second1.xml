@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context=".second1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Start Placing  Your Order"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="197dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="664dp"
+        android:text="idli+chetney"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="195dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="568dp"
+        android:text="Dose+Saagu"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="488dp"
+        android:text="Baaji"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="384dp"
+        android:text="ppori"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="308dp"
+        android:text="Rice+Sambar(Vegetable)"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="228dp"
+        android:text="pongal"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish order"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="54dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Phone Number"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781"
+        tools:layout_editor_absoluteX="-34dp" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="394dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="80dp"
+        android:background="#ECE8E8"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <!--    <CheckBox-->
+<!--        android:id="@+id/checkBox2"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:text="Coffee"-->
+
+<!--        tools:layout_editor_absoluteX="97dp"-->
+<!--        tools:layout_editor_absoluteY="146dp" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="156dp"-->
+<!--        android:layout_marginTop="176dp"-->
+<!--        android:text="Burger"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="156dp"-->
+<!--        android:layout_marginTop="328dp"-->
+<!--        android:text="Order"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />-->
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/one"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="820dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Please Place your order"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/at"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="780dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="At"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="4dp" />-->
+<!--   -->
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/KC"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="397dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="55dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginBottom="724dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Karunaadu caterers"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="29dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:ignore="MissingConstraints"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:layout_editor_absoluteX="-3dp" />&ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/Name"-->
+<!--        android:layout_width="377dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:layout_marginBottom="604dp"-->
+<!--        android:text="Enter Name"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="8dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/EntName"-->
+<!--        android:layout_width="394dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:layout_marginBottom="536dp"-->
+<!--        android:background="#ECE8E8"-->
+<!--        android:hint="Name"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/food"-->
+<!--        android:layout_width="377dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginBottom="452dp"-->
+<!--        android:text="Food Type"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="8dp" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/vegNonveg"-->
+<!--        android:layout_width="394dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:layout_marginBottom="384dp"-->
+<!--        android:background="#ECE8E8"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:hint="Veg/Non Veg"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/attendees"-->
+<!--        android:layout_width="381dp"-->
+<!--        android:layout_height="68dp"-->
+<!--        android:layout_marginBottom="300dp"-->
+<!--        android:text="Number of attendees"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="4dp" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/range1"-->
+<!--        android:layout_width="135dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginBottom="252dp"-->
+<!--        android:background="#ECE8E8"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="0"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/range2"-->
+<!--        android:layout_width="133dp"-->
+<!--        android:layout_height="69dp"-->
+<!--        android:layout_marginBottom="244dp"-->
+<!--        android:background="#ECE8E8"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:hint="N"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/Loc"-->
+<!--        android:layout_width="375dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginBottom="172dp"-->
+<!--        android:text="Event Location"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="4dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/URL"-->
+<!--        android:layout_width="370dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_marginBottom="104dp"-->
+<!--        android:background="#ECE8E8"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="URL"-->
+<!--        android:textSize="29dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="4dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/proceed"-->
+<!--        android:layout_width="194dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="Proceed"-->
+<!--        android:textSize="25dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.809"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
